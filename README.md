@@ -6,16 +6,15 @@
 
 #启动类
 
-@SpringBootApplication
-@EnableCaching
-@EnableDisableService
-@EnableDiscoveryClient
-public class AppStart {
-
-    public static final void main(String[] args){
-        SpringApplication.run(AppStart.class, args);
+    @SpringBootApplication
+    @EnableCaching
+    @EnableDisableService
+    @EnableDiscoveryClient
+    public class AppStart {
+        public static final void main(String[] args){
+            SpringApplication.run(AppStart.class, args);
+        }
     }
-}
 
 
 # InstanceService 接口使用

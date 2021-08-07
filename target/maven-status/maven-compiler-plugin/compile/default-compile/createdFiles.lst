@@ -1,0 +1,6 @@
+com\raiden\service\InstanceService.class
+com\raiden\handler\InstanceStatusHandler.class
+com\raiden\annotation\EnableDisableService.class
+com\raiden\config\NacosDiscoveryInstanceStatusHandlerConfiguration.class
+com\raiden\service\InstanceServiceImpl.class
+com\raiden\config\NacosDiscoveryDisableServiceAutoConfiguration.class
